@@ -1,1 +1,19 @@
-111
+git bash进入本地目录
+
+$git init命令 初始化git本地仓库
+
+$git add . 本地新建文件添加到git本地仓库（所有文件）
+
+$git status命令查看git文件状态(文件变动)
+
+$git commit -m "your commit message"提交更改
+
+$git pull https://github.com/jacksactofgithub/xxx.git
+提交本地仓库内容到远端之前先执行pull命令 pull=fetch+merge
+
+$git remote add origin https://github.com/jacksactofgithub/xxx.git
+将本地仓库内容添加到github
+
+$git push -u origin master 将commit push到master分支
+
+
