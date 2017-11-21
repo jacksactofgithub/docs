@@ -1,19 +1,24 @@
-git bash½øÈë±¾µØÄ¿Â¼
+git bashè¿›å…¥æœ¬åœ°ç›®å½•
 
-$git initÃüÁî ³õÊ¼»¯git±¾µØ²Ö¿â
+$git initå‘½ä»¤ åˆå§‹åŒ–gitæœ¬åœ°ä»“åº“
 
-$git add . ±¾µØĞÂ½¨ÎÄ¼şÌí¼Óµ½git±¾µØ²Ö¿â£¨ËùÓĞÎÄ¼ş£©
+$git add . æœ¬åœ°æ–°å»ºæ–‡ä»¶æ·»åŠ åˆ°gitæœ¬åœ°ä»“åº“ï¼ˆæ‰€æœ‰æ–‡ä»¶ï¼‰
 
-$git statusÃüÁî²é¿´gitÎÄ¼ş×´Ì¬(ÎÄ¼ş±ä¶¯)
+$git statuså‘½ä»¤æŸ¥çœ‹gitæ–‡ä»¶çŠ¶æ€(æ–‡ä»¶å˜åŠ¨)
 
-$git commit -m "your commit message"Ìá½»¸ü¸Ä
+$git commit -m "your commit message"æäº¤æ›´æ”¹
 
 $git pull https://github.com/jacksactofgithub/xxx.git
-Ìá½»±¾µØ²Ö¿âÄÚÈİµ½Ô¶¶ËÖ®Ç°ÏÈÖ´ĞĞpullÃüÁî pull=fetch+merge
+æäº¤æœ¬åœ°ä»“åº“å†…å®¹åˆ°è¿œç«¯ä¹‹å‰å…ˆæ‰§è¡Œpullå‘½ä»¤ pull=fetch+merge
 
 $git remote add origin https://github.com/jacksactofgithub/xxx.git
-½«±¾µØ²Ö¿âÄÚÈİÌí¼Óµ½github
+å°†æœ¬åœ°ä»“åº“å†…å®¹æ·»åŠ åˆ°github
 
-$git push -u origin master ½«commit pushµ½master·ÖÖ§
+$git push -u origin master å°†commit pushåˆ°masteråˆ†æ”¯
 
+æœ¬åœ°æ–‡ä»¶ä¿®æ”¹æ—¶æäº¤åˆ°è¿œç«¯æµç¨‹:
+$git add .(æ— è®ºæ–°å¢è¿˜æ˜¯ä¿®æ”¹éƒ½è¦æ‰§è¡Œaddå‘½ä»¤)
 
+#git commit -m "commit message"
+
+$git push -u origin master
