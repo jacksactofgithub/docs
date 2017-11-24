@@ -24,4 +24,4 @@ $git remote查看当前的远程仓库 以及对应的简称
 $git pull https://github.com/jacksactofgithub/xxx.git
 提交本地仓库内容到远端之前先执行pull命令 pull=fetch+merge 远端库可以用相应的简称代替
 $git remote add origin https://github.com/jacksactofgithub/xxx.git
-将本地仓库内容添加到github
+将本地仓库内容添加到github 设置远程仓库地址 简称为origin
